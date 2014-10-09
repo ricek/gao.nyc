@@ -4,7 +4,7 @@
 <title>GAO</title>
 <meta name="description" content="Go free in live">
 <meta name="keywords" content="gao, liang, ru, yuanyuan">
-<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <style type="text/css">
 body { 
 	-webkit-animation: color_change 5s infinite alternate;
@@ -33,6 +33,8 @@ body, h1, p {
 
 h1 { font-size: 48px; font-weight: bold; margin: 0 0 20px 0; color: #262938;}
 
+@media (max-device-width: 640px) { font-size: 24px; }
+
 @-webkit-keyframes color_change { from { background-color: #018A8B; } to { background-color: #F8CC8A; }}
 @-moz-keyframes color_change { from { background-color: #000; } to { background-color: #FFf; }}
 @-ms-keyframes color_change { from { background-color: #000; } to { background-color: #FFf; }}
@@ -57,7 +59,7 @@ h1 { font-size: 48px; font-weight: bold; margin: 0 0 20px 0; color: #262938;}
 
 <body>
 	<div class="container">
-		<svg height="300" width="550">
+		<svg style="width:100%;height:100%" viewBox="-300 100 1200 200" overflow="inherit">
 			<ellipse stroke="#262938" transform="rotate(-19 110,200) " ry="70" rx="88" cy="190" cx="125" stroke-width="30" fill="none"/>
 			<rect class="svg1" height="110" width="80" y="90" x="145" stroke-width="1.5" stroke="none"/>
 			<line stroke="#dd4230" transform="rotate(2.8 160,187)" y2="165" x2="210" y1="200" x1="100" stroke-width="25"/>
