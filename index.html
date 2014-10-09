@@ -36,23 +36,23 @@ h1 { font-size: 40px; font-weight: bold; margin: 0 0 20px 0; color: #262938;}
 @media (max-width: 640px) { h1 { font-size: 24px;}}
 
 @-webkit-keyframes color_change { from { background-color: #018A8B; } to { background-color: #F8CC8A; }}
-@-moz-keyframes color_change { from { background-color: #000; } to { background-color: #FFf; }}
-@-ms-keyframes color_change { from { background-color: #000; } to { background-color: #FFf; }}
-@-o-keyframes color_change { from { background-color: #000; } to { background-color: #FFf; }}
-@keyframes color_change { from { background-color: #000; } to { background-color: #FFf; }}
+@-moz-keyframes color_change { from { background-color: #018A8B; } to { background-color: #F8CC8A; }}
+@-ms-keyframes color_change { from { background-color: #018A8B; } to { background-color: #F8CC8A; }}
+@-o-keyframes color_change { from { background-color: #018A8B; } to { background-color: #F8CC8A; }}
+@keyframes color_change { from { background-color: #018A8B; } to { background-color: #F8CC8A; }}
 
-@-webkit-keyframes fill-glow { 0% { fill: #018A8B; } 100% { fill: #F8CC8A; }}
-@keyframes fill-glow { 0% { fill: #018A8B; } 100% { fill: #F8CC8A; }}
+@-webkit-keyframes fill_glow { 0% { fill: #018A8B; } 100% { fill: #F8CC8A; }}
+@-moz-keyframes fill_glow { 0% { fill: #018A8B; } 100% { fill: #F8CC8A; }}
+@-ms-keyframes fill_glow { 0% { fill: #018A8B; } 100% { fill: #F8CC8A; }}
+@-o-keyframes fill_glow { 0% { fill: #018A8B; } 100% { fill: #F8CC8A; }}
+@keyframes fill_glow { 0% { fill: #018A8B; } 100% { fill: #F8CC8A; }}
+
 .svg1 {
-	-webkit-animation-name: fill-glow;
-	-webkit-animation-duration: 5s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-direction: alternate;
-
-	animation-name: fill-glow;
-	animation-duration: 5s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+	-webkit-animation: fill_glow 5s infinite alternate;
+	-moz-animation: fill_glow 5s infinite alternate;
+	-ms-animation: fill_glow 5s infinite alternate;
+	-o-animation: fill_glow 5s infinite alternate;
+	animation: fill_glow 5s infinite alternate;
 }
 </style>
 </head>
