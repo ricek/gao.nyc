@@ -4,18 +4,18 @@
 
  <g>
   <title>background</title>
-  <rect fill="none" id="canvas_background" height="167" width="487" y="-1" x="-1"/>
-  <g display="none" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" id="svg_1"/>
+  <rect x="-1" y="-1" width="487" height="167" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
   </g>
  </g>
  <g>
   <title>Layer 1</title>
-  <text stroke="#262938" transform="matrix(1.3664915561912778,0,0,1.2316424612202552,-122.84436007750236,-19.97424561496589) " font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="165" id="svg_13" y="142.365242" x="318.80685" stroke-width="5" fill="#262938">O</text>
-  <rect stroke="#262938" transform="rotate(32.747928619384766 225.62484741210938,86.04963684082028) " id="svg_9" height="154.669644" width="35.000081" y="8.714814" x="208.124807" stroke-width="0" fill="#262938"/>
-  <rect stroke="#262938" transform="rotate(-10.538622856140137 287.10797119140597,80.49405670166013) " id="svg_8" height="148.004967" width="41.600212" y="6.491577" x="266.307856" stroke-width="0" fill="#262938"/>
-  <rect stroke="#262938" transform="rotate(-5.511125087738037 228.71710205078102,113.1316528320313) " id="svg_10" height="32.542457" width="98.483943" y="96.860418" x="179.475121" stroke-width="0" fill="#262938"/>
-  <text stroke="#262938" transform="rotate(-12.927587509155273 91.28450775146496,86.65485382080077) matrix(1.572577094198694,0,0,1.2962000884879907,-17.653317090482044,-10.539900110039248) " font-weight="bold" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="155" id="svg_14" y="128.59625" x="13.304757" stroke-width="5" fill="#262938">C</text>
-  <rect transform="rotate(-13.809682846069336 133.91195678710935,77.3918914794922) " id="svg_15" height="20.967829" width="80.079828" y="66.907971" x="93.872051" stroke-width="20" fill="#dd4230"/>
+  <text id="svg_2" y="255.150794" x="32" transform="rotate(-11 86.37120819091783,86.65523529052732) matrix(1.5600000000000005,0,0,1.26,-50.86,-167.3) " xml:space="preserve" text-anchor="left" stroke-width="7" stroke="#262938" fill="#262938" font-size="155" font-weight="normal" font-family="Helvetica, Arial, sans-serif">C</text>
+  <line id="svg_3" y2="58.5" x2="168" y1="98.5" x1="89" transform="rotate(8.699999809265137 128,78.5) " stroke-width="20" stroke="#dd4230"/>
+  <rect id="svg_4" x="282" y="19" width="14" height="120" transform="rotate(-10.5 288.0000000000001,77.99999999999986) " stroke-width="28.5" stroke="#262938"/>
+  <rect id="svg_5" x="223" y="21" width="6" height="130" transform="rotate(33 227,85.00000000000001) " stroke-width="28.5" stroke="#262938"/>
+  <rect id="svg_6" x="223" y="76" width="4" height="75" transform="rotate(85 227.99999999999997,115.99999999999999) " stroke-width="28.5" stroke="#262938"/>
+  <text id="svg_7" y="156.837607" x="328.421053" transform="matrix(1.33,0,0,1.17,-122,-28.3) " xml:space="preserve" text-anchor="left" stroke-width="5" stroke="#262938" fill="#262938" font-size="165" font-weight="bold" font-family="Helvetica, Arial, sans-serif">O</text>
  </g>
 </svg>
